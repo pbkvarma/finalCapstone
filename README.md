@@ -17,11 +17,8 @@ Credits: Sample code template is provided by HperionDev
 # Task 18: 
 
 # B) Usage
-# Task 17: 
-Breakdown of the code structure and functionality:
-
-1. The code imports the necessary libraries and defines the current date format.
- 
+Task 17: Breakdown of the code structure and functionality.
+1. The code imports the necessary libraries and defines the current date format. 
 2. The code if refectored to use functions which are defined as follows:
    
 reg_user(): Allows a new user to register by providing a unique username and password. The user information is stored in the "user.txt" file.
@@ -32,19 +29,14 @@ generate_reports():  function is defined to generate task and user overview repo
 display_stats(): function is defined to display statistics about the number of users and tasks. This function is only accessible to the admin user.
 
 3. The code checks for the existence of the "tasks.txt" and "user.txt" files. If they don't exist, they are created with default content.
-
 4. The "tasks.txt" file is read to populate the task_list with task information.
-
 5. The "user.txt" file is read to populate the username_password dictionary with user information.
-
 6. The code prompts for username and password to login. If the provided credentials are correct, the user is logged in. Otherwise, appropriate error messages are displayed.
-
 7. After successful login, the program presents a menu of options to the user. The user can choose to register a user, add a task, view all tasks, view their own tasks, generate reports, display statistics, or exit the program.
 Based on the user's selection, the corresponding function is called.
-
 8. If an invalid option is chosen, an error message is displayed.
 
-# Task 18: 
+Task 18: 
 
 
 # C) Installation notes: How to download the code to local PC
