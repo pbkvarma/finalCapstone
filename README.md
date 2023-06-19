@@ -21,17 +21,17 @@ Task 17: Breakdown of the code structure and functionality.
 1. The code imports the necessary libraries and defines the current date format. 
 2. The code if refectored to use functions which are defined as follows:
    
-reg_user(): Allows a new user to register by providing a unique username and password. The user information is stored in the "user.txt" file.
+  reg_user(): Allows a new user to register by providing a unique username and password. The user information is stored in the "user.txt"   file.
 
-add_task(): Allows a user to add a new task by providing details such as the assigned username, task title, description, and due date. The task information is stored in the "tasks.txt" file.
+  add_task(): Allows a user to add a new task by providing details such as the assigned username, task title, description, and due date.     The task information is stored in the "tasks.txt" file.
 
-view_all(): Reads task information from the "tasks.txt" file and prints all tasks in a specific format.
+  view_all(): Reads task information from the "tasks.txt" file and prints all tasks in a specific format.
 
-view_mine(): Reads task information from the "tasks.txt" file and prints tasks assigned to the current user in a specific format.
+  view_mine(): Reads task information from the "tasks.txt" file and prints tasks assigned to the current user in a specific format.
 
-generate_reports():  function is defined to generate task and user overview reports. The reports are written to "task_overview.txt" and "user_overview.txt" files.
+  generate_reports():  function is defined to generate task and user overview reports. The reports are written to "task_overview.txt" and   "user_overview.txt" files.
 
-display_stats(): function is defined to display statistics about the number of users and tasks. This function is only accessible to the admin user.
+  display_stats(): function is defined to display statistics about the number of users and tasks. This function is only accessible to the   admin user.
 
 3. The code checks for the existence of the "tasks.txt" and "user.txt" files. If they don't exist, they are created with default content.
 4. The "tasks.txt" file is read to populate the task_list with task information.
