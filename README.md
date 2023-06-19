@@ -14,7 +14,14 @@ Running the code:
 2. Ensure you open the whole folder for this task in VS Code otherwise the program will look in your root directory for the text files.
 Credits: Sample code template is provided by HperionDev 
 
-Task 18: 
+Task 18: 'Email Simulator' application uses class (OOP's) concepts. A constructor defines instance variables namely email_address, subject_line, email_contents, and a method 'mark_as_read' (Read/Unread).
+Functions are defined to populate, list, read E-mails and give the user the options to choose: view and select Emails to Read, View Unread Emails and Quit application.
+Running the code: 
+1. Use the following username and password to access the admin rights 
+  username: admin
+  password: password
+2. Ensure you open the whole folder for this task in VS Code otherwise the program will look in your root directory for the text files.
+Credits: Bharat Penumatha
 
 # B) Usage
 Task 17: Breakdown of the code structure and functionality.
