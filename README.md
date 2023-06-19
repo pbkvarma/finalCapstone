@@ -14,7 +14,7 @@ Running the code:
 2. Ensure you open the whole folder for this task in VS Code otherwise the program will look in your root directory for the text files.
 Credits: Sample code template is provided by HperionDev 
 
-# Task 18: 
+Task 18: 
 
 # B) Usage
 Task 17: Breakdown of the code structure and functionality.
