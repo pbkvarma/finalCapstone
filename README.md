@@ -6,7 +6,7 @@ C) Installation Notes
 
 # A) Projects description: This repository has two tasks T17 and T18. The description of which can be found as follows:
 
-Task 17: The pyhton code is for Task Management System (TMS) application. It allows users to register, add tasks, view tasks, generate reports, display statistics, and exit the program. The application stores user information in a "user.txt" file and task information in a "tasks.txt" file. Overall, the code provides basic functionality for managing tasks and users.
+## Task 17: The pyhton code is for Task Management System (TMS) application. It allows users to register, add tasks, view tasks, generate reports, display statistics, and exit the program. The application stores user information in a "user.txt" file and task information in a "tasks.txt" file. Overall, the code provides basic functionality for managing tasks and users.
 Running the code: 
 1. Use the following username and password to access the admin rights 
   username: admin
