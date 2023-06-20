@@ -48,10 +48,10 @@ Based on the user's selection, the corresponding function is called.
 
 ### Task 18: Breakdown of the code structure and functionality.
 This application allows users to populate an inbox with emails, read individual emails, view unread emails, and quit the application. Class, methods, lists and functions are used.
-1. Function populate_inbox populate 3 sample emails and adding it to the Inbox list
-2. Function list_emails print Email’s subject_line, along with a corresponding number
-3. Function read_email displays a selected email by the user.
-4. Class method mark_as_read is used to change read E-mails from False to True
+1. Function populate_inbox() populates 3 sample emails and adding it to the Inbox list
+2. Function list_emails() print Email’s subject_line, along with a corresponding number
+3. Function read_email() displays a selected email by the user.
+4. Class method mark_as_read() is used to change read E-mails from False to True
 5. Class constructor initialises the instance variables email_address, subject_line, email_contents and has_been_read
 6. The user can choose from the Menu to read individual emails, view unread emails, and quit the application
 
