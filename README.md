@@ -17,10 +17,8 @@ Credits: Sample code template is provided by HperionDev
 Task 18: 'Email Simulator' application uses class (OOP's) concepts. A constructor defines instance variables namely email_address, subject_line, email_contents, and a method 'mark_as_read' (Read/Unread).
 Functions are defined to populate, list, read E-mails and give the user the options to choose: view and select Emails to Read, View Unread Emails and Quit application.
 Running the code: 
-1. Use the following username and password to access the admin rights 
-  username: admin
-  password: password
-2. Ensure you open the whole folder for this task in VS Code otherwise the program will look in your root directory for the text files.
+1. When the code is run, a function is called to populate the E-mails
+2. Choose the appropriate choice from the menu to read, view unread E-mails and Quit application
 Credits: Bharat Penumatha
 
 # B) Usage
@@ -48,8 +46,14 @@ Task 17: Breakdown of the code structure and functionality.
 Based on the user's selection, the corresponding function is called.
 8. If an invalid option is chosen, an error message is displayed.
 
-Task 18: 
-
+Task 18: Breakdown of the code structure and functionality.
+This application allows users to populate an inbox with emails, read individual emails, view unread emails, and quit the application. Class, methods, lists and functions are used.
+1. Function populate_inbox populate 3 sample emails and adding it to the Inbox list
+2. Function list_emails print Email’s subject_line, along with a corresponding number
+3. Function read_email displays a selected email by the user.
+4. Class method mark_as_read is used to change read E-mails from False to True
+5. Class constructor initialises the instance variables email_address, subject_line, email_contents and has_been_read
+6. The user can choose from the Menu to read individual emails, view unread emails, and quit the application
 
 # C) Installation notes: How to download the code to local PC
 1. Open VS Code on your local PC.
