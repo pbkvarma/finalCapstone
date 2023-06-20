@@ -12,17 +12,17 @@ C) Installation Notes
   username: admin
   password: password
 2. Ensure you open the whole folder for this task in VS Code otherwise the program will look in your root directory for the text files.
-### Credits: Sample code template is provided by HperionDev 
+### Credits: Sample code template was provided by HperionDev 
 
-Task 18: 'Email Simulator' application uses class (OOP's) concepts. A constructor defines instance variables namely email_address, subject_line, email_contents, and a method 'mark_as_read' (Read/Unread).
+## Task 18: 'Email Simulator' application uses class (OOP's) concepts. A constructor defines instance variables namely email_address, subject_line, email_contents, and a method 'mark_as_read' (Read/Unread).
 Functions are defined to populate, list, read E-mails and give the user the options to choose: view and select Emails to Read, View Unread Emails and Quit application.
-Running the code: 
+### Running the code: 
 1. When the code is run, a function is called to populate the E-mails
 2. Choose the appropriate choice from the menu to read, view unread E-mails and Quit application
-Credits: Bharat Penumatha
+### Credits: Bharat Penumatha
 
 # B) Usage
-Task 17: Breakdown of the code structure and functionality.
+## Task 17: Breakdown of the code structure and functionality.
 1. The code imports the necessary libraries and defines the current date format. 
 2. The code if refectored to use functions which are defined as follows:
    
@@ -46,7 +46,7 @@ Task 17: Breakdown of the code structure and functionality.
 Based on the user's selection, the corresponding function is called.
 8. If an invalid option is chosen, an error message is displayed.
 
-Task 18: Breakdown of the code structure and functionality.
+## Task 18: Breakdown of the code structure and functionality.
 This application allows users to populate an inbox with emails, read individual emails, view unread emails, and quit the application. Class, methods, lists and functions are used.
 1. Function populate_inbox populate 3 sample emails and adding it to the Inbox list
 2. Function list_emails print Email’s subject_line, along with a corresponding number
