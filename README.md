@@ -7,12 +7,12 @@ C) Installation Notes
 # A) Projects description: This repository has two tasks T17 and T18. The description of which can be found as follows:
 
 ## Task 17: The pyhton code is for Task Management System (TMS) application. It allows users to register, add tasks, view tasks, generate reports, display statistics, and exit the program. The application stores user information in a "user.txt" file and task information in a "tasks.txt" file. Overall, the code provides basic functionality for managing tasks and users.
-Running the code: 
+### Running the code: 
 1. Use the following username and password to access the admin rights 
   username: admin
   password: password
 2. Ensure you open the whole folder for this task in VS Code otherwise the program will look in your root directory for the text files.
-Credits: Sample code template is provided by HperionDev 
+### Credits: Sample code template is provided by HperionDev 
 
 Task 18: 'Email Simulator' application uses class (OOP's) concepts. A constructor defines instance variables namely email_address, subject_line, email_contents, and a method 'mark_as_read' (Read/Unread).
 Functions are defined to populate, list, read E-mails and give the user the options to choose: view and select Emails to Read, View Unread Emails and Quit application.
